@@ -1,0 +1,667 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    border-left:10px;
+}
+.header_background_image{
+    height:70vh;
+    width:100vw;
+    max-width:100%;
+    background-image:url(header_background_images.avif);
+    background-size:cover;
+    /* position: absolute; */
+    /* border-left:20px; */
+    padding:1rem;
+    /* margin-top:1rem; */
+    /* margin-left:1rem; */
+     position:sticky;
+    
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+}
+.login{
+    display: flex;
+}
+.login>.box{
+         margin-right:2rem;
+         margin-top: 0.6rem;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size:18px;
+         color:white;
+         cursor:pointer;
+         text-decoration: none;
+}
+.get_app{
+    position: relative;
+    left:4rem;
+    top:0.6rem;
+    font-size:0.9rem;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    cursor:pointer;
+    text-decoration: none;
+
+}
+.zomato{
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    padding:2.4rem;
+}
+h2{
+    color:white;
+    font-size:2.2rem;
+    text-align: center;
+}
+.search{
+    display:flex;
+    justify-content: center;
+    margin-top:1.5em;
+   
+}
+.search>input{
+    width:800px;
+    padding:1.1rem;
+    border-radius:10px;
+    border:none;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+
+}
+.card{
+    margin-top:2rem;
+    background-color:white;
+    border:10px solid white;
+    border-radius:20px;
+    cursor:pointer;
+    transition: all;
+    transition-duration:1s;
+    transition-timing-function: 1s;
+}
+.card>img{
+    width:380px;
+    height:200px;
+    padding:0.4rem;
+    border-radius:20px;
+
+}
+
+
+.card>h3{
+    padding:0.4rem;
+    font-size:1.5rem;
+}
+.card>p{
+    color:grey;
+    font-size:1.1rem;
+    padding:0.3rem;
+}
+.card:hover{
+    background-color: rgb(255, 251, 251);
+    border:1px solid rgb(238, 238, 238);
+    /* transform: translateY(0px) */
+}
+
+.collecting{
+    display:flex;
+    margin-left:2.8rem;
+    flex-direction: column;
+    position:relative;
+    top:4rem;
+}
+.collect{
+    font-size:3rem;
+    font-weight: bold;
+}
+.lucknow{
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+}
+.lucknow_collection{
+
+    text-decoration: none;
+    color:rgb(255,0,0,0.6);
+    font-size:1.5rem;
+    position:relative;
+    right:2.7rem;
+    
+
+}
+.explore{
+    font-size:1.1rem;
+    color:grey;
+    margin-top:0.4rem;
+    margin-left:0.2rem;
+}
+.card2{
+    display: flex;
+    justify-content: space-around;
+}
+.card_second{
+    margin-top:7rem;
+    position:relative;
+}
+.restaurant_image{
+    height:370px;
+    width:265px;
+    border-radius:10px;
+
+}
+.worthy_places{
+    position: absolute;
+    bottom:39px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size:1.3rem;
+    padding:0.5rem;
+}
+.places{
+      position:absolute;
+      bottom:24px;
+      font-family: Arial, Helvetica, sans-serif;
+      color:white;
+      font-size: 0.9rem;
+      padding-left:0.5rem;
+      
+}
+.localities{
+    position:relative;
+    padding-top:4rem;
+    padding-left:2.4rem;
+    padding-bottom:2rem;
+    font-size:38px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.popular_in_lucknow{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    margin-top:1rem;
+}
+.location{
+    width:29vw;
+    height:12vh;
+    border: 1px solid rgb(202, 198, 198);
+    border-radius:10px;
+    position: relative;
+    cursor:pointer;
+
+}
+.locations_lucknow{
+    position:absolute;
+    padding-left:0.5rem;
+    padding-top:0.4rem;
+    font-size:1.2rem;
+    color:black;
+    
+}
+.lucknow_places{
+    text-decoration:dashed;
+    padding-left:0.5rem;
+    padding-top:2.2rem;
+    color:grey;
+    
+}
+
+
+.email_login{
+    height:80vh;
+    width:100%;
+    background-color:rgb(250, 241, 230,0.4);
+    position:relative;
+    top:8rem;
+    display: flex;
+    justify-content:center;
+}
+.get_zomato{
+    display: flex;
+}
+.mobile_apples{
+    height:70vh;
+    width:34vw;
+    position: absolute;
+    left:7.5rem;
+}
+.download_login{
+    width:450px;
+    position: relative;
+    margin-left:80px;
+
+}
+#get_zomato_app{
+    position:absolute;
+    font-size:2.8rem;
+    left:2.9rem;
+    top:2rem;
+    
+}
+#send_link{
+    color:gray;
+    position:absolute;
+    font-size:1rem;
+    left:2.6rem;
+    top:6rem;
+}
+.email{
+    padding:0.5rem;
+    position:absolute;
+    font-size:1rem;
+    left:2.6rem;
+    top:10rem;
+}
+.input_email{
+    display:flex;
+    position:absolute;
+    font-size:1rem;
+    left:2.6rem;
+    top:14rem;
+    cursor: pointer;
+
+}
+.input{
+    width:270px;
+    padding:0.8rem;
+    font-size: 1rem;
+    border-radius:1px solid grey;
+    border-radius: 14px;
+    cursor: pointer;
+}
+button{
+    padding:0.8rem;
+    background-color:rgb(253, 54, 54);
+    color:white;
+    font-size:1rem;
+    border-radius:8px;
+    cursor:pointer;
+    
+
+}
+#app_download{
+    position:absolute;
+    font-size:1rem;
+    left:2.6rem;
+    top:19rem;
+    color:grey;
+}
+.symbol_image{
+    display: flex;
+    position:relative;
+    top:22rem;
+    left:2.6rem;
+}
+.playstore,.apple_store{
+    width:12vw;
+    height:6vh;
+    margin:0.4rem;
+
+}
+.appple_store{
+    position: absolute;
+}
+
+
+.Explore_options{
+    height:20vh;
+    width:100vw;
+    background-color:white;
+    position:relative;
+    top:80px;
+
+}
+
+#explorings{
+    position: relative;
+    padding-top:4rem;
+    padding-left:2.4rem;
+    padding-bottom:2rem;
+    font-size:45px;
+    font-family:Arial, Helvetica, sans-serif;
+
+} 
+.container{
+    display: flex;
+    flex-direction: column;
+    display: relative;
+}
+.popular{
+    padding:0.3rem;
+    width:94vw;
+    height:12vh;
+    border: 1px solid gray;
+    border-radius: 14px;
+    margin-left:2.4rem;
+    font-size:1.4rem;
+}
+.anchor_tag{
+    text-decoration: none;
+    color:rgb(74, 73, 73);
+
+}
+.anchor_tag1,.anchor_tag2,.anchor_tag3{
+    margin-top:1.2rem;
+    text-decoration: none;
+    color:rgb(74, 73, 73);
+
+}
+
+
+/* here the media query*/
+
+@media (max-width:650px){
+    .header_background_image{
+        height:auto;
+        width:100%;
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content:center;
+    }
+    .login{
+        display: flex;
+        margin-left:1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login>.box{
+             margin-top: 0.4rem;
+             font-size:17px;
+             font-weight: bolder;
+    }
+    .get_app{
+        left:0.5rem;
+        top:0.1rem;
+        font-size:1rem;
+    }
+    .zomato{
+        padding:1.6rem;
+    }
+    h2{
+        font-size:1.6rem;
+        text-align: center;
+    }
+    .search{
+        display:flex;
+        justify-content: center;
+        margin-top:1.2em;
+       
+    }
+    .search>input{
+        padding:1.2rem;
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+.card>p{
+    margin-left:0.5rem;
+}
+
+.collecting{
+    display:flex;
+    flex-direction:column;
+    top:3rem;
+    color: blue;
+}
+.collect{
+
+    margin-left: 28px;
+    margin-bottom: 10px;
+}
+.lucknow_collection{
+    font-size:1.4rem;
+    margin-bottom:8px;
+    margin-left:60px;
+  
+
+}.localities{
+    font-size: 2rem;
+}
+.explore{
+    display: none;
+}
+.card2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.card_second{
+    margin-top:3rem;
+}
+.restaurant_image{
+    height:400px;
+    width:320px;
+
+}
+
+.popular_in_lucknow{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    margin-top:1rem;
+}
+.lucknow_places{
+    text-decoration:dashed;
+    padding-left:0.5rem;
+    padding-top:2.2rem;
+    color:grey;
+    
+}
+
+
+.email_login{
+    height:65vh;
+    width:100%;
+    background-color:rgba(184, 124, 51, 0.4);
+    top:3rem;
+    border-radius: 20px;
+}
+.get_zomato{
+    display: flex;
+}
+.mobile_apples{
+    width:200px;
+    left:0px;
+}
+.download_login{
+    width:450px;
+    position: relative;
+    margin-left:180px;
+    display: flex;
+    justify-content: center;
+}
+#get_zomato_app{
+    font-size:1.8rem;
+    left:2.9rem;
+    top:5rem;
+    
+}
+
+.email{
+    padding:0.5rem;
+    position:absolute;
+    font-size:1.2rem;
+    font-weight: bold;
+    left:2.6rem;
+    top:10rem;
+}
+.input_email{
+    display:flex;
+    position:absolute;
+    font-size:1rem;
+    left:2.6rem;
+    top:14rem;
+    cursor: pointer;
+
+}
+.input{
+    width:140px;
+    padding:0.7rem;
+    font-size: 1rem;
+    border-radius:1px solid grey;
+    border-radius: 14px;
+    margin-bottom:5px;
+}
+
+#app_download{
+    font-size:0.9rem;
+    left:2.7rem;
+    display: none;
+    top:20rem;
+    color:rgb(0, 0, 0);
+}
+.symbol_image{
+    display: flex;
+    justify-content:center;
+    left:6px;
+    top:328px;
+
+
+}
+.playstore,.apple_store{
+    width:50px;
+    height:30px;
+
+}
+
+#send_link{
+    display: none;
+}
+
+.popular{
+    padding:0.4rem;
+    margin-left:1.2rem;
+    margin-bottom:2px;
+   
+}
+
+
+}
+
+@media (max-width:430px){
+    .get_app{
+        display: none;
+    }
+}
+
+
+/* for tablet */
+/* media queries */
+
+@media (min-width:651px) and (max-width:950px){
+
+
+    .header_background_image{
+        height:36vh; 
+    }
+    .login>.box{
+             font-size:18px;
+             font-weight: bold;
+    }
+    .get_app{
+        font-size:1rem;
+    }
+    .zomato{
+        font-size: 80px;
+        padding:2.4rem;
+    }
+    .search>input{
+        width:680px;
+    }
+    .cards{
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card>img{
+        width:650px;
+        height:340px;
+    }
+    .card>h3{
+        font-size:2.2rem;
+    }
+
+    .card>p{
+        font-size:2rem;
+    }
+    .collect{
+        display: none;
+    }
+    .lucknow{
+        flex-direction: column;
+    }
+
+    .lucknow_collection{  
+        font-size:3rem;
+        margin-left:140px;
+        margin-bottom: 50px;
+        font-weight: bold;
+        color:red;
+    }
+
+    .explore{
+      display: none;
+    }
+    .card2{
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card_second{
+        margin-top:3rem;
+    }
+    .restaurant_image{
+        height:600px;
+        width:490px;
+        border-radius:10px;
+    }
+    .get_zomato{
+        display: flex;
+    }
+    .mobile_apples{
+        width:50vw;
+        left:2vw;
+    }
+    .download_login{
+        margin-left:320px;
+        margin-top: 140px;
+    
+    }
+    .email{
+        font-weight: bold;
+        font-size:1.4rem;
+    }
+    .playstore,.apple_store{
+        height:4vh;
+    }
+    .appple_store{
+        position: absolute;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .popular{
+        margin-left:0.5rem;
+        font-size: 20px;
+    }
+
+}
